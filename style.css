@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "LucidaGrande";
+    src: url(assets/apple-font.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
+
+p {
+    font-family: "LucidaGrande";
+    font-size: 0.85rem;
+    text-wrap: wrap;
+}
+
+h1 {
+    color: rgb(107, 18, 107);
+    font-family: "Arial";
+    font-size: 1rem;
+    text-wrap: wrap;
+}
+
+a {
+    font-family: "LucidaGrande";
+    font-size: 0.85rem;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    text-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    filter: drop-shadow(0 0 0.25rem rgb(107, 18, 107));
+}
+
+.logo h1 {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.logo a {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.logo img {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.desktop {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    filter: drop-shadow(0 0 0.75rem white);
+
+}
+
+.folder1 {
+    margin: 11%;
+    width: 11%;
+}
+
+.folder2 {
+    margin: 4%;
+    width: 9%;
+}
+
+.folder3 {
+    margin: 6%;
+    width: 12%;
+}
+
+.folder4 {
+    margin: 1%;
+    width: 20%;
+}
+
+.folder5 {
+    margin-left: 27%;
+    width: 20%;
+}
+
+.folder6 {
+    margin: 2%;
+    width: 11%;
+}
+
+.folder7 {
+    margin: 4%;
+    width: 10%;
+}
