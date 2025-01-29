@@ -15,7 +15,39 @@
 
     <div class="logo">
         <img src="assets/logo.png" alt="" width="200px">
-        <a href=""> <h1> ABOUT/ CONTACT</h1></a>
+        <script>
+            function showInfo() {
+                let x = document.getElementById("about_info");
+                let y = document.getElementById("clickable"); 
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    y.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                    y.style.display = "block";
+                }
+            }
+        </script>
+        <button onclick="showInfo()">
+            <style>
+                #clickable {
+                    display: none;
+                }
+            </style>
+            <div id="about_info">
+                <h1> ABOUT/ CONTACT</h1>
+            </div>
+            <div id="clickable">
+                <h2>Meike Bouman <br>
+    
+                    Creative direction / <br>
+                    photography, clothes, cake workshops <br>
+    
+                    Meikebouman[at]gmail.com <br>
+                    @sm1kkel
+                </h2>
+            </div>
+        </button>
     </div>
 
     <div class="desktop">

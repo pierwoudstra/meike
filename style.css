@@ -31,6 +31,24 @@ h1 {
     text-wrap: wrap;
 }
 
+h2 {
+    /* margin: 1%; */
+    color: rgb(107, 18, 107);
+    font-family: "Arial";
+    font-size: 0.75rem;
+    text-wrap: wrap;
+}
+
+button {
+    margin-left: 3%;
+    margin-top: 2%;
+    background-color: transparent;
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    text-align: left;
+}
+
 a {
     font-family: "LucidaGrande";
     font-size: 0.85rem;
