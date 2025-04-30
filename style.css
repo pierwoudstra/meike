@@ -25,7 +25,7 @@ p {
 }
 
 h1 {
-    color: rgb(107, 18, 107);
+    color: rgb(255, 225, 0);
     font-family: "Arial";
     font-size: 1rem;
     text-wrap: wrap;
@@ -33,7 +33,7 @@ h1 {
 
 h2 {
     /* margin: 1%; */
-    color: rgb(107, 18, 107);
+    color: rgb(255, 225, 0);
     font-family: "Arial";
     font-size: 0.75rem;
     text-wrap: wrap;
@@ -41,7 +41,7 @@ h2 {
 
 button {
     margin-left: 3%;
-    margin-top: 2%;
+    margin-top: 3%;
     background-color: transparent;
     width: 20rem;
     height: 3rem;
@@ -63,7 +63,7 @@ a {
 }
 
 .logo img {
-    filter: drop-shadow(0 0 0.25rem rgb(107, 18, 107));
+    filter: drop-shadow(0 0 0.5rem rgb(255, 225, 0));
 }
 
 .logo h1 {
@@ -72,7 +72,7 @@ a {
 }
 
 .logo a {
-    width: 20%;
+    width: 17%;
     margin-left: 5%;
     margin-top: 2%;
 }
@@ -87,7 +87,6 @@ a {
     flex-wrap: wrap;
     text-align: center;
     filter: drop-shadow(0 0 0.75rem white);
-
 }
 
 .folder1 {
@@ -141,4 +140,63 @@ a {
 
 .folder11 {
     margin: 5%;
+}
+
+
+@media screen and (max-width: 950px) {
+    .folder1 {
+        width: 30%;
+        margin: auto;
+    }
+    .folder2 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder3 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder4 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder5 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder6 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder7 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder8 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder9 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder10 {
+        width: 30%;
+
+        margin: auto;
+    }
+    .folder11 {
+        width: 30%;
+
+        margin: auto;
+    }
+
 }
